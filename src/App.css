@@ -11,6 +11,12 @@
   background-attachment: fixed;
   height: 500px;
 }
+.parallax2{
+    background: url('./img/mt2.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
 .App {
   text-align: center;
 }
