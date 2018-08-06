@@ -5,7 +5,7 @@
   font-size: 24px;
   padding: 25px;
 }
-.parallax{
+/* .parallax{
   background: url('./img/mt1.jpg') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
@@ -16,15 +16,20 @@
   background-size: cover;
   background-attachment: fixed;
   height: 500px;
+} */
+.parallax{
+  min-height: 500px;
+  background: transparent;
+  
 }
 .App {
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
-}
+} */
 
 .App-header {
   background-color: #222;
@@ -41,7 +46,7 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
+} */
